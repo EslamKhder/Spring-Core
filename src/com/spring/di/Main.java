@@ -9,6 +9,10 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
+		User user = new User();
+		user.setEmail("eslam@yahoo.com");
+		user.setTeam("ICBC");
+		System.out.println(user.getEmail() + "  " + user.getTeam());
 		Person person = new Person();
 		User user = new User();
 		user.setPerson(person);
@@ -21,7 +25,7 @@ public class Main {
 		// retrieve bean from spring container
 		UserInterface user = context.getBean("user",UserInterface.class);
 		// call methods on the bean
-		user.getPerson();
+		System.out.println(user.getEmail() + "  " + user.getTeam());
 		/*
 		// retrieve bean from spring container
 		PersonInterface person = context.getBean("person",PersonInterface.class);
