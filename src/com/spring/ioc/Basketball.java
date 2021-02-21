@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.ioc;
 
 
 public class Basketball implements Sport{

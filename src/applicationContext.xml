@@ -7,8 +7,15 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     
-    <bean id="mySport" class="com.spring.Basketball">
-    </bean>
+    
+    <bean id="user" class="com.spring.di.User">
+	 </bean>
+	 <bean id="person" class="com.spring.di.Person">
+	 </bean>
+    <!-- 
+	    <bean id="mySport" class="com.spring.Basketball">
+	    </bean>
+    -->
 </beans>
 
 

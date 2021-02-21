@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.ioc;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -19,7 +19,7 @@ public class MainApp {
 		
 		
 		
-		Sport foSport = new Basketball();
+		/*Sport foSport = new Basketball();
 		foSport.start();
 		/*Football football = new Football();
 		football.start();
