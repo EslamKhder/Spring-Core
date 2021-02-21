@@ -13,9 +13,13 @@
 	 <bean id="person" class="com.spring.di.Person">
 	 </bean>
     <!-- 
-	    <bean id="mySport" class="com.spring.Basketball">
-	    </bean>
+    
+    <bean id="mySport" class="com.spring.Basketball">
+    </bean>
+    
     -->
+    
+    
 </beans>
 
 
