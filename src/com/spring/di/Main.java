@@ -8,11 +8,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		/*Person person = new Person();
-		User user = new User(person);
+		/*
+		Person person = new Person();
+		User user = new User();
+		user.setPerson(person);
 		user.getPerson();
 		*/
+		
 		// load the spring configuration file
 				ClassPathXmlApplicationContext context = 
 						new ClassPathXmlApplicationContext("applicationContext.xml");
