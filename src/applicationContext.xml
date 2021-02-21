@@ -15,14 +15,13 @@
 	 </bean>
     <bean id="mySport" class="com.spring.Basketball">
     </bean>
-    
     -->
-
-
+    <context:property-placeholder location="classpath:data.properties"/>
+    
 		<bean id="user" class="com.spring.di.User">
 			<property name="person" ref="person"></property>
-			<property name="email" value="eslam@gmail.com"></property>
-			<property name="team" value="ICBC"></property>
+			<property name="email" value="${us.email}"></property>
+			<property name="team" value="${us.team}"></property>
 	    </bean>
 	    <bean id="person" class="com.spring.di.Person">
 	 	</bean>
