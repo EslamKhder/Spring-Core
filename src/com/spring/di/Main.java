@@ -18,22 +18,26 @@ public class Main {
 		user.setPerson(person);
 		user.getPerson();
 		*/
-		
+		/*
+		 *   --------
+		 *   "Eslam"
+		 *   --------
+		 * */
 		// load the spring configuration file
 				ClassPathXmlApplicationContext context = 
 						new ClassPathXmlApplicationContext("applicationContext.xml");
 		// retrieve bean from spring container
-		UserInterface user1 = context.getBean("user",UserInterface.class);
+		UserInterface user = context.getBean("user",UserInterface.class);
 		
 		// retrieve bean from spring container
-		UserInterface user2 = context.getBean("user",UserInterface.class);
+		//UserInterface user2 = context.getBean("user",UserInterface.class);
 			
-		System.out.println(user1);
-		System.out.println(user2);
+		//System.out.println(user1);
+		//System.out.println(user2);
 
-		System.out.println(user1 == user2);
+		//System.out.println(user1 == user2);
 		// call methods on the bean
-		//System.out.println(user.getEmail() + "  " + user.getTeam());
+		System.out.println(user.getEmail() + "  " + user.getTeam());
 		/*
 		// retrieve bean from spring container
 		PersonInterface person = context.getBean("person",PersonInterface.class);
