@@ -13,9 +13,9 @@ public class MainApp {
 		ClassPathXmlApplicationContext context = 
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		// retrieve bean from spring container
-		MasterInterface ms = context.getBean("master",MasterInterface.class);
+		SportInterface sp = context.getBean("tennisSport",SportInterface.class);
 		
-		ms.name();
+		sp.mySport();
 		
 		context.close();
 		

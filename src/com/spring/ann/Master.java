@@ -10,5 +10,4 @@ public class Master implements MasterInterface{
 		// TODO Auto-generated method stub
 		System.out.println("I am Master");
 	}
-
 }
