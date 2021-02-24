@@ -11,5 +11,5 @@ public class TennisSport implements SportInterface{
 	public void mySport() {
 		System.out.println("I am Tennis");
 	}
-
+	
 }
