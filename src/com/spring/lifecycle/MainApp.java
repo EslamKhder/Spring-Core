@@ -15,16 +15,9 @@ public class MainApp {
 		
 		PersonInterface admin1 = context.getBean("admin",PersonInterface.class);
 		
-		// retrieve bean from spring container
-		
-		PersonInterface admin2 = context.getBean("admin",PersonInterface.class);
 		// call methods on the bean
+		admin1.name();
 		
-		System.out.println(admin1);
-		
-		System.out.println(admin2);
-		
-		System.out.println(admin1 == admin2);
 		// close the context
 		context.close();
 	}
