@@ -8,9 +8,14 @@ import org.springframework.stereotype.Component;
 public class Master implements MasterInterface{
 
 	@Autowired
-	@Qualifier("client")
 	private CompanyInterface ci;
 	
+	
+
+	public Master(CompanyInterface ci) {
+		super();
+		this.ci = ci;
+	}
 
 	@Override
 	public void name() {
