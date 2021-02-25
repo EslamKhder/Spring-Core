@@ -2,7 +2,7 @@ package com.spring.noxml;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Football implements SportInterface{
 
 	@Override

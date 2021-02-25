@@ -15,7 +15,7 @@ public class MainApp {
 		AnnotationConfigApplicationContext context = 
 				new AnnotationConfigApplicationContext(SpringConfige.class);
 		
-		MasterInterface ms  = context.getBean("master",MasterInterface.class);
+		MasterInterface ms  = context.getBean("myMaster",MasterInterface.class);
 		
 		ms.name();
 		ms.getSport();
